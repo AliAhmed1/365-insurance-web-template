@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+    transition-delay: 2s !important;
+}
+
+body{
+    
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    width: auto;
+    
+}
+
+#top{
+    background-color: #135190;
+}
+
+
+#top > .container{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px ;
+}
+
+
+
+#top > .container > .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > #top > div > div > .two > span{
+    color: white;
+}
+
+#top .three >img{
+    margin-left: 10px;
+}
+
+
+#logo-location{
+    
+    background-color: white;
+   
+}
+
+#logo-location > div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+    border-top: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+#carouselExampleSlidesOnly{
+    text-align: center;
+    width: 100%;
+}
+
+#slider{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+    border-top: 1px solid rgba(0, 0, 0, 0.164);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
+
+#slider > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about {
+    margin: 0;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: whitesmoke;
+    
+}
+
+
+
+#about >div >div >div > .heading {
+    font-size: xx-large;
+}
+
+#about >div >div >div > p {
+    color: #135190;
+}
+
+
+#calculate{
+    text-align: center;
+    align-items: center;
+    background-color: rgb(32, 161, 204);
+    padding-bottom: 50px;
+    padding-top: 30px;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    color: white;
+  
+}
+
+#calculate > div > h1{
+    text-shadow: 1px 1px 5px black;
+
+}
+#calcualte >div> form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculate > div >form > input{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    box-shadow: 0px 2px 10px black;
+}
+
+#a, #b{
+    width: 20%;
+}
+
+#submit{
+    width: 10%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+#calculate > div >form > output{
+    font-size: 70px;
+    align-self: center;
+    margin-left: 50px;
+}
+
+
+#contact{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#contact > div > form >input {
+    border-radius: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    width: 22%;
+
+}
+
+#contact > div > form >textarea {
+    border-radius: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+#contact > div > form > button {
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 1px solid blue;
+    padding-left: 30px;
+}
+
+#contact > div > form > button > span{
+    margin-left: 30px;
+
+}
+
+
+#newsletter{
+    background-color: rgb(32, 161, 204);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+#newsletter > div >input {
+    width: 40%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    margin-left: 50px;
+}
+
+.page-footer{
+background-color: rgba(0, 0, 0, 0.05);
+}
+
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.158);
+}
